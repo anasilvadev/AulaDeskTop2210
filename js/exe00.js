@@ -33,4 +33,15 @@ function remover(){
 function alternar(){
     var titulo=  document.getElementById("titulo")
     titulo.classList.toggle("destacado")
+
+}
+/*Exemplo 7*/
+function adicionartexto(){
+    var novo
+    novo=document.createElement("p")
+    novo.id="paragrafo"
+    novo.innerText="Novo parágrafo criado com js"
+
+    var div= document.getElementById("container")
+    div.appendChild(novo)
 }
